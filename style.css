@@ -243,8 +243,16 @@ footer {
 #contact p {
     margin-bottom: 10px;
     font-size: 17px;
+#contact a {
+    box-shadow: 0 5px 15px rgba(37, 99, 235, 0.25);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
+#contact a:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 20px rgba(37, 99, 235, 0.3);
 }
+
 }
 }@media (max-width: 768px) {
 
