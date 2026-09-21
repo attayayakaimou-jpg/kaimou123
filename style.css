@@ -251,6 +251,16 @@ footer {
 #contact a:hover {
     transform: translateY(-4px);
     box-shadow: 0 10px 20px rgba(37, 99, 235, 0.3);
+footer {
+    padding: 30px 10%;
+    background-color: #111827;
+    color: white;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    font-size: 15px;
 }
 
 }
