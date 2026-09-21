@@ -208,8 +208,8 @@ footer {
     border-radius: 10px;
 }
 #apropos img {
-    width: 180px;
-    height: 180px;
+    width: 150px;
+    height: 150px;
     object-fit: cover;
     border-radius: 50%;
     display: block;
@@ -258,5 +258,9 @@ footer {
     }
    .projet-carte img {
     height: 150px;
+       #apropos img {
+    width: 120px;
+    height: 120px;
+}
 }
 }
