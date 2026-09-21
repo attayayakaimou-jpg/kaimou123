@@ -231,6 +231,19 @@ footer {
 #contact a:hover {
     background-color: #1d4ed8;
     transform: translateY(-3px);
+    #contact {
+    background-color: #f8fafc;
+    text-align: center;
+}
+
+#contact h2 {
+    margin-bottom: 20px;
+}
+
+#contact p {
+    margin-bottom: 10px;
+    font-size: 17px;
+}
 }
 }
 }@media (max-width: 768px) {
