@@ -261,5 +261,21 @@ footer {
  #apropos img {
         width: 120px !important;
         height: 120px !important;
+#contact a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 22px;
+    background-color: #2563eb;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+#contact a:hover {
+    background-color: #1d4ed8;
+    transform: translateY(-3px);
+}
 }
 }
