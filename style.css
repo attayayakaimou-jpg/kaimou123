@@ -165,12 +165,14 @@ footer {
 
 .projet-carte a:hover {
     background-color: #1d4ed8;
-}.projet-carte img {
+.projet-carte img {
     width: 100%;
     height: 200px;
     object-fit: cover;
     border-radius: 8px;
     margin-bottom: 20px;
+    transition: transform 0.4s ease;
+}
 }.projet-carte {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -178,6 +180,9 @@ footer {
 .projet-carte:hover {
     transform: translateY(-8px);
     box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+.projet-carte:hover img {
+    transform: scale(1.03);
+}
 }@media (max-width: 768px) {
 
     header {
