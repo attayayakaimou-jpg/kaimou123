@@ -206,6 +206,16 @@ footer {
     margin-top: 10px;
     background-color: #2563eb;
     border-radius: 10px;
+    #apropos img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+    margin-bottom: 25px;
+    border: 5px solid #2563eb;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
 }
 }@media (max-width: 768px) {
 
