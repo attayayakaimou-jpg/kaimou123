@@ -258,9 +258,8 @@ footer {
     }
    .projet-carte img {
     height: 150px;
-       #apropos img {
-    width: 120px;
-    height: 120px;
-}
+        #apropos img {
+        width: 120px !important;
+        height: 120px !important;
 }
 }
