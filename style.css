@@ -215,6 +215,16 @@ footer {
     margin-bottom: 25px;
     border: 5px solid #2563eb;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+        #apropos img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+    margin-bottom: 25px;
+    border: 5px solid #2563eb;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
 }
 }
 }@media (max-width: 768px) {
