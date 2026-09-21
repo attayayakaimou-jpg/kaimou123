@@ -183,6 +183,30 @@ footer {
 .projet-carte:hover img {
     transform: scale(1.03);
 }
+#apropos {
+    background-color: #ffffff;
+}
+
+#apropos p {
+    max-width: 700px;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+#apropos h2 {
+    position: relative;
+    display: inline-block;
+}
+
+#apropos h2::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 4px;
+    margin-top: 10px;
+    background-color: #2563eb;
+    border-radius: 10px;
+}
 }@media (max-width: 768px) {
 
     header {
