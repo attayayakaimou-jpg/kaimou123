@@ -222,5 +222,7 @@ footer {
     .projet-carte {
         max-width: 100%;
     }
-
+   .projet-carte img {
+    height: 150px;
+}
 }
