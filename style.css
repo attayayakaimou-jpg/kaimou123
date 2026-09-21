@@ -74,7 +74,29 @@ nav a:hover {
     font-weight: bold;
 }
 
+/* Accueil */
 
+#accueil {
+    min-height: 80vh;
+    padding: 100px 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background: linear-gradient(135deg, #eff6ff, #ffffff);
+}
+
+#accueil h2 {
+    font-size: 56px;
+    margin: 15px 0;
+    line-height: 1.1;
+}
+
+#accueil p {
+    font-size: 20px;
+    max-width: 650px;
+    line-height: 1.7;
+}
 /* Bouton */
 
 #accueil a {
