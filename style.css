@@ -261,6 +261,15 @@ footer {
 footer p {
     margin: 0;
     font-size: 15px;
+    #projets {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+#projets .projet-carte {
+    flex: 1 1 350px;
+
 }
 
 }
